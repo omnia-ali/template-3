@@ -407,6 +407,7 @@ header nav .form i {
   margin-bottom: 40px;
   justify-content: space-evenly;
 }
+
 .services .srv-box .srv-icon{
   background-image: url(../images/Path@1X.png);
   background-size: cover;
@@ -421,6 +422,26 @@ header nav .form i {
   position: relative;
 
 }
+
+/* @media (min-width: 768px) { */
+@media (min-width: 1200px) {
+ 
+.services .srv-box:not(:last-child) .srv-icon::before{
+  content: "";
+  width:  calc(100% + 80px );
+  height: 2px;
+  position: absolute;
+  left:  calc(100% + 80px );
+  top: 50%;
+  background-color: var(--secondary-color);
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+}
+
 .services .srv-box i {
    position: absolute;
     top:50%;
@@ -430,6 +451,7 @@ header nav .form i {
     -webkit-transform: translate(-50%,-50%) ; -moz-transform: translate(-50%,-50%) ; -ms-transform: translate(-50%,-50%) ; -o-transform: translate(-50%,-50%) ;
 }
 @media (max-width: 767px) {
+  
   .services .srv-box {
     display: flex;
     flex-direction: column;
