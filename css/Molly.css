@@ -490,7 +490,7 @@ header nav .form i {
 .services .srv-box p {
   color: var(--section-color);
 }
-.design {
+.design{
   padding-bottom: var(--section-padding);
   padding-top: var(--section-padding);
   display: flex;
@@ -521,7 +521,7 @@ header nav .form i {
 }
 
 .design-content .image {
-  margin-top: 100px;
+  margin-top: 145px;
   text-align: center;
 }
 
@@ -576,6 +576,7 @@ header nav .form i {
   flex-basis: 10%;
   background-color: var(--secondary-color);
   text-align: center;
+  
 }
 
 /* portfolio */
@@ -623,6 +624,7 @@ header nav .form i {
   flex-wrap: wrap;
   margin-top: 30px;
   justify-content: space-evenly;
+  /* align-items: center; */
 }
 .portfolio .imgs-container .box {
   overflow: hidden;
@@ -704,10 +706,10 @@ header nav .form i {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
   background-color: var(--secondary-color);
- 
+
 }
 .video-section .video-content {
-  padding: var(--section-padding);
+  padding:   0 var(--section-padding) 0 var(--section-padding);
   display: flex;
   position: relative;
   justify-content: space-evenly;
@@ -757,4 +759,42 @@ header nav .form i {
   font-weight: var(--regular-weight);
 
   color:white;
+}
+.video-section .text button {
+  color:var(--main-color);
+}
+
+.adver{
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding); 
+  text-align: center;
+background-color: var(--main-color);
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+.adver h2{
+font-size: 30px;
+font-weight: var(--semi-bold-weight);
+color: white;
+padding: 20px 0 20px 0 ;
+} 
+.adver p{
+font-size: 15px;
+font-weight: var(--regular-weight);
+font-style: italic;
+color: white;
+padding: 0 0 20px 0 ;
+
+}
+.adver button
+{
+  margin:50px 0 40px 0;
+}
+.adver  img {
+  position: relative;
+  bottom: -200px;
+  margin-top: -180px;
+  max-width: 100%;
 }
