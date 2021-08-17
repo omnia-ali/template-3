@@ -149,7 +149,7 @@ ul {
 
   color: var(--section-color);
   padding: 20px 0 20px 0;
-  margin: 0 auto 100px;
+  margin: 0 auto 20px;
 }
 /* end component*/
 
@@ -675,10 +675,10 @@ header nav .form i {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
 }
 .portfolio .imgs-container .box .caption {
   position: absolute;
@@ -808,3 +808,76 @@ padding: 0 0 20px 0 ;
    bottom: -10px;
   }
 }
+.about-us
+{
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding); 
+  display: flex;
+  flex-direction: column;
+/* height:100vh;
+overflow: hidden; */
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.about-us .team{
+color: var(--section-color);  
+}
+.about-us .about-heading {
+  padding: 10px 0 10px 0;
+
+}
+.about-us .about-heading h3{
+  font-size: 25px;
+  font-weight: var(--semi-bold-weight);
+  color: var(--secondary-color);
+  padding: 5px 0 5px 0;
+  letter-spacing: -1px;
+
+}
+.about-us .about-heading  p:first-of-type{
+
+  font-size: 15px;
+  font-style: italic;
+  font-weight: var(--semi-bold-weight);
+  color: var(--main-color);
+  padding: 10px 0 10px 0;
+
+}
+.about-us .team .team-content
+{
+  /* display: grid;
+  grid-template-columns: repeat(3,minmax(300px,1fr)); */
+/* margin: 0 0 0 170px; */
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+.about-us .team .team-content img
+{
+  width: 350px;
+height: 440px;
+}
+.about-us .team .team-content img:last-of-type
+{
+  opacity: 0.2;
+
+}
+.about-us .team .team-content .team-member > p ,
+.about-us  .skills .about-company >p
+{
+  font-size: 15px;
+  padding: 10px 0 10px 0;
+  font-weight: var(--ligth-weight);  
+}
+
+.about-us .skills{
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding); 
+  display: flex;
+ 
+  background-color: var(--main-background);
+color: white;
+}
+
+
