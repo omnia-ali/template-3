@@ -812,6 +812,7 @@ overflow: hidden; */
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .about-us .team {
   color: var(--section-color);
 }
@@ -840,6 +841,15 @@ overflow: hidden; */
   justify-content: flex-end;
   align-items: center;
 }
+@media (max-width: 767px) {
+  .about-us .team .team-content {
+    display: flex;
+    flex-direction: column;
+   
+    margin: 20px;
+  }
+ 
+}
 .about-us .team .team-content img {
   width: 350px;
   height: 440px;
@@ -865,6 +875,15 @@ overflow: hidden; */
 .about-us .skills .container {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .about-us .skills .container {
+    display: flex;
+    flex-direction: column;
+   
+    margin-bottom: 40px;
+  }
+ 
 }
 .about-us .skills .skills-stats {
   flex-basis: 60%;
